@@ -4,4 +4,4 @@
 
 [2. Destination](https://stefaandc.github.io/WSOdometerSol/destination.html "Destination")
 
-[3. Geolocation](https://stefaandc.github.io/WSOdometerSol/odometer.html "Odometer")
+[3. Odometer](https://stefaandc.github.io/WSOdometerSol/odometer.html "Odometer")
