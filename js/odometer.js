@@ -47,9 +47,7 @@ class OdometerComponent {
     );
   }
   updateLocation(position) {
-    if (position.coords.accuracy >= 5000) {
-      this.status = "Need more accurate values to calculate distance.";
-    } else {
+    
       this.odometer.addLocation(
         position.coords.latitude,
         position.coords.longitude,
@@ -57,7 +55,7 @@ class OdometerComponent {
       );
       this.status = "Location retrieved.";
       this.toHtml(position);
-    }
+   
     this.showStatus();
   }
 
